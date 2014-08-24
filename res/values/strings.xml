@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Next Lecture Kaunsa Hai?</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="Fragment1">This is Fragment 1</string>
+    <string name="Fragment2">This is Fragment 2</string>
+    <string name="Fragment3">This is Fragment 3</string>
+    <string name="drawer_open">Menu</string>
+    <string name="drawer_close">Next Lecture Kaunsa Hai?</string>
+    <string name="sTitle">Next Lecture Kaunsa Hai?</string>
+    <string name="sAbout">About</string>
+    <string name="prev">&lt;</string>
+    <string name="next">></string>
+    <string name="reset">Reset</string>
+    <color name="text">#000000</color>
+    
+
+</resources>

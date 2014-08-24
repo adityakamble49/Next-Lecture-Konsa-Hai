@@ -1,0 +1,120 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/slant" >
+
+<ScrollView
+     android:id="@+id/vSVAbout"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:layout_centerHorizontal="true" >
+    
+    <RelativeLayout
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:orientation="vertical" >
+    
+	    <TextView
+	        android:id="@+id/vTVAboutTitle"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:layout_alignParentTop="true"
+	        android:layout_marginRight="36dp"
+	        android:layout_marginTop="14dp"
+	        android:text="Next Lecture\n Konsa Hai?"
+	        android:textColor="#ff0c1d51"
+	        android:textSize="25sp" />
+	
+	    <ImageView
+	        android:id="@+id/vIVAboutLogo"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentTop="true"
+	        android:layout_marginRight="17dp"
+	        android:layout_toLeftOf="@+id/vTVAboutTitle"
+	        android:src="@drawable/logo" />
+	
+	    <TextView
+	        android:id="@+id/vTVDevelopers"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/vIVAboutLogo"
+	        android:layout_centerHorizontal="true"
+	        android:layout_marginTop="28dp"
+	        android:textSize="25sp"
+	        android:textColor="#ff0c1d51"
+	        android:text="Developers" />
+	
+	    <TextView
+	        android:id="@+id/vTVAdityaKamble"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/vTVDevelopers"
+	        android:layout_centerHorizontal="true"
+	        android:layout_marginTop="18dp"
+	        android:textSize="22sp"
+	        android:textColor="#000000"
+	        android:text="Aditya Kamble" />
+	
+	    <TextView
+	        android:id="@+id/vTVAbhinavBakshi"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignRight="@+id/vTVAdityaKamble"
+	        android:layout_below="@+id/vTVAdityaKamble"
+	        android:textSize="22sp"
+	        android:textColor="#000000"
+	        android:text="Abhinav Bakshi" />
+	
+	    <TextView
+	        android:id="@+id/vTVAniketBansode"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/vTVAbhinavBakshi"
+	        android:layout_below="@+id/vTVAbhinavBakshi"
+	        android:textSize="22sp"
+	        android:textColor="#000000"
+	        android:text="Aniket Bansode" />
+	
+	    <TextView
+	        android:id="@+id/textView4"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignRight="@+id/vTVAniketBansode"
+	        android:layout_below="@+id/vTVAniketBansode"
+	        android:textSize="22sp"
+	        android:textColor="#000000"
+	        android:text="Sujit Nalawade" />
+	    
+	    
+	    <TextView
+	        android:id="@+id/vTVThanks"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/textView4"
+	        android:layout_centerHorizontal="true"
+	        android:layout_marginTop="22dp"
+	        android:textSize="20sp"
+	        android:textColor="#ff0c1d51"
+	        android:text="Thanks To" />
+	    
+	    <TextView
+	        android:id="@+id/vTVActionbarShearlock"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/vTVThanks"
+	        android:layout_centerHorizontal="true"
+	        android:layout_marginTop="2dp"
+	        android:textSize="20sp"
+	        android:textColor="#000000"
+	        android:text="ActionbarSherlock" />
+
+	   
+
+	        
+	 </RelativeLayout>
+</ScrollView>
+
+</RelativeLayout>
